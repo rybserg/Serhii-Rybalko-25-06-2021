@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block style %}
+<style>
+    html, body {
+        height: 100%;
+        font-family: "Verdana", serif;
+    }
+
+    .auth-box {
+        border: 3px solid lightgrey;
+        border-radius: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        max-width: 400px !important;
+        margin: auto;
+    }
+
+    .outer-area {
+        margin-top: 100px;
+    }
+
+    #hint_id_username, #hint_id_password1, #hint_id_password2 {
+        display: none;
+    }
+
+    .registration-form-container, .login-form-container {
+        width: 230px;
+        margin: auto;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="outer-area">
+    <div class="auth-box text-center">
+        {% block auth %}
+        {% endblock %}
+    </div>
+</div>
+{% endblock %}
