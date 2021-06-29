@@ -1,4 +1,3 @@
-Repo: https://github.com/rybserg/Serhii-Rybalko-28-06-2021  
 App on Heroku: https://limitless-hamlet-47005.herokuapp.com/  
 
 Django Admin Interface: https://limitless-hamlet-47005.herokuapp.com/admin/  
