@@ -18,7 +18,7 @@ Bonus task (only Backend part)
 DRF endpoints that not used for now in frontend app:  
 * Create email by logged in user / get emails related to logged in user (as sender or/and receiver) /api/personal-emails/ GET, POST, HEAD, OPTIONS  
 * Get (for sender or receiver), PUT/PATCH/DELETE email related to logged in user (only for sender) /api/personal-emails/{id}/ GET, PUT, PATCH, DELETE, HEAD, OPTIONS  
-* Update is_read and is_spam fields of Email by receiver /api/personal-emails/{id}/mark/  
+* Update is_read and is_spam fields of Email by receiver /api/personal-emails/{id}/mark/ PATCH, OPTIONS
 * Search users /api/users/?search=username GET, HEAD, OPTIONS  
 
 App pages:  
